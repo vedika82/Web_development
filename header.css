@@ -1,0 +1,89 @@
+.header {
+  height: 55px;
+  display: flex;
+  justify-content: space-between;
+  }
+
+  .left-section {
+  display: flex;
+  align-items:center; 
+ }
+ .middle-section {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  max-width: 500px;
+  margin-left: 71px;
+  margin-right: 35px;
+ }
+
+.right-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 200px;
+  flex-shrink:0;
+  margin-right: 25px;
+}
+.search-bar{
+  flex: 1;
+  height: 35px;
+  border-color:  rgb(214, 208, 208);
+  border-style: solid;
+  border-width: 1px;
+  box-shadow: inset 1px 2px 5px rgba(0,0,0,0.05);
+  font-size: 17px ;
+  border-radius: 2px;
+  padding-left: 10px;
+  width: 0;
+}
+.search-bar::placeholder{
+  font-size: 17px;
+  font-family: arial;
+}
+.logo-1{
+  width: 25px;
+  margin-right: 20px;
+  margin-left: 24px;
+  cursor: pointer;
+}
+.logo-2{
+width: 90px;   
+cursor: pointer;
+}
+.search-button{
+ height: 39px;
+ width: 59px;
+ border-color:  rgb(214, 208, 208);
+ border-style: solid;
+ border-width: 1px;
+ background-color: rgb(243, 243, 243);
+ cursor: pointer; 
+ margin-left: -1px;
+ margin-right: 10px; 
+}
+.logo-3{
+ height: 25px;
+  margin-top: 4px;
+}
+.voice-search-button{
+ width: 42px;
+ height: 42px;
+ border:none;
+ border-radius: 21px;
+ background-color: rgb(245, 245, 245);
+ cursor: pointer;
+}
+.logo-4{
+height: 24px; 
+margin-top: 3px;
+}
+.icons{
+height: 25px;
+cursor: pointer;
+}
+.logo-8{
+width: 35px;  
+border-radius: 17px; 
+cursor: pointer;
+}
